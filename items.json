@@ -1,0 +1,11 @@
+[
+{"Name": "Air Plant", "Image": "/static/img/products/air-plant.jpg", "Description": "Have you ever wondered whether air plants need water? Buy one and figure out.", "Currency": "USD", "Units": 12, "nanos": 300000000},
+{"Name": "Metal Camping Mug", "Image": "/static/img/products/camp-mug.jpg", "Description": "You probably don't go camping that often but this is better than plastic cups.", "Currency": "USD", "Units": 24, "nanos": 330000000},
+{"Name": "Vintage Record Player", "Image": "/static/img/products/record-player.jpg", "Description": "It still works.", "Currency": "USD", "Units": 65, "nanos": 500000000},
+{"Name": "Vintage Camera Lens", "Image": "/static/img/products/camera-lens.jpg", "Description": "You won't have a camera to use it and it probably doesn't work anyway.", "Currency": "USD", "Units": 12, "nanos": 490000000},
+{"Name": "Home Barista Kit", "Image": "/static/img/products/barista-kit.jpg", "Description": "Always wanted to brew coffee with Chemex and Aeropress at home?", "Currency": "USD", "Units": 124, "nanos": 0},
+{"Name": "Film Camera", "Image": "/static/img/products/film-camera.jpg", "Description": "This camera looks like it's a film camera, but it's actually digital.", "Currency": "USD", "Units": 2245, "nanos": 0},
+{"Name": "City Bike", "Image": "/static/img/products/city-bike.jpg", "Description": "This single gear bike probably cannot climb the hills of San Francisco.", "Currency": "USD", "Units": 789, "nanos": 500000000},
+{"Name": "Terrarium", "Image": "/static/img/products/terrarium.jpg", "Description": "This terrarium will looks great in your white painted living room.", "Currency": "USD", "Units": 36, "nanos": 450000000},
+{"Name": "Vintage Typewriter", "Image": "/static/img/products/typewriter.jpg", "Description": "This typewriter looks good in your living room.", "Currency": "USD", "Units": 67, "nanos": 990000000}
+]
