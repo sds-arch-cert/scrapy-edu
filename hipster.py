@@ -3,7 +3,7 @@ import json
 
 class HipsterSpider(scrapy.Spider):
     name = 'hipster'
-    start_urls = ['http://localhost:8080/#/']
+    start_urls = ['http://34.64.171.117:8080/#/']
     
     headers = {
         'Accept': 'application/json, text/plain, */*',
@@ -11,10 +11,10 @@ class HipsterSpider(scrapy.Spider):
         'Accept-Language': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7,zh-CN;q=0.6,zh;q=0.5',
         'Cache-Control': 'no-cache',
         'Connection': 'keep-alive',
-        'Host': 'localhost:8090',
-        'Origin': 'http://localhost:8080/',
+        'Host': '34.64.171.117:8080',
+        'Origin': 'http://34.64.171.117:8080/',
         'Pragma': 'no-cache',
-        'Referer': 'http://localhost:8080/',
+        'Referer': 'http://34.64.171.117:8080/',
         'Sec-Fetch-Dest': 'empty',
         'Sec-Fetch-Mode': 'cors',
         'Sec-Fetch-Site': 'same-site',
@@ -22,13 +22,13 @@ class HipsterSpider(scrapy.Spider):
     }
 
     def parse(self, response):
-        url = 'http://localhost:8090/products'
+        url = 'http://34.64.171.117:8080/api/products'
 
         yield scrapy.Request(url, callback=self.parse_api, headers=self.headers)
 
 
     def parse_api(self, response):
-        base_url = 'http://localhost:8090/products?ids='
+        base_url = 'http://34.64.171.117:8080/api/products?ids='
 
         raw_data = response.body
         data = json.loads(raw_data)
